@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  padding: 40px;
+  background: #eee;
+}
+
+.text h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 10px;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-container .banner {
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px #0005;
+  overflow: hidden;
+}
+.banner-container .banner .shoe {
+  flex: 1 1 250px;
+  padding: 15px;
+  text-align: center;
+}
+
+.banner-container .banner .shoe img {
+  width: 100%;
+}
+
+.banner-container .banner .content {
+  flex: 1 1 250px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+.banner-container .banner .content span {
+  color: #eee;
+  font-size: 25px;
+}
+.banner-container .banner .content h3 {
+  color: #eee;
+  font-size: 40px;
+}
+.banner-container .banner .content p {
+  color: #eee;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.banner-container .banner .content btn {
+  display: block;
+  height: 40px;
+  width: 150px;
+  line-height: 40px;
+  background: #eee;
+  color: white;
+  margin: 5px auto;
+  text-decoration: none;
+}
+.banner-container .banner .women {
+  position: relative;
+  bottom: -33px;
+  padding: 10px;
+  flex: 1 1 250px;
+}
+
+.banner-container .banner .women img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .banner-container .banner .women {
+    display: none;
+  }
+}
